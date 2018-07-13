@@ -51,7 +51,7 @@ contract ZenswapContribution is Ownable {
         
         uint256 amount = msg.value;
         uint256 tokens = amount * amountTokensPerEth;
-        require(availableTokens >= amount);
+        require(availableTokens >= tokens);
         
         balanceOf[msg.sender] += amount;
         availableTokens -= tokens;
