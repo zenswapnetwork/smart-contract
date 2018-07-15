@@ -2,6 +2,6 @@
 
 ZenswapNetworkToken.sol consist of Solidity code for a standard ERC20 token.
 
-ZenswapContribution.sol consist of Solidity code for a capped crowdsale (not a time-based crowdsale).
+ZenswapContribution.sol consist of Solidity code for a token distribution upon receiving donations.
 
-    -Design the smart contract to be reusable and token-withrawable smart contract.
+ZenswapDistribution.sol consist of Solidity code for a token airdrop distribution.
